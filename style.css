@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.conteudo{
+  display: flex;
+  justify-content: center;
+}
+
+.phone img{
+  width: 700px;
+  height: 700px;
+}
+
+.geral{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.geral a{
+  text-decoration: none;
+  color: #3faff5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.conta{
+  margin-top: 120px;
+  padding: 10px 120px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  
+}
+
+.img-perfil{
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.img-logo{
+  margin-bottom: 10px ;
+}
+
+.btn-blue{
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 9px;
+  background-color: #3faff5;
+  color: white;
+  border-radius: 2%;
+  border: none;
+}
+
+.geral-2{
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #989898;
+}
+
+.geral-2 span{
+  color: #3faff5;
+}
+
+.download{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.download button{
+  border: none;
+}
+
+.download img{
+  
+  width: 150px;
+}
